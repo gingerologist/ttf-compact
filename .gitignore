@@ -1,0 +1,37 @@
+# KiCad 10 local user settings (UI layout, window positions, expanded trees)
+*.kicad_prl
+
+# KiCad auto-backups and lock files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_wks-bak
+*.kicad_dru-bak
+_autosave-*
+*.lck
+fp-info-cache
+backups/
+*-backups/
+
+# Legacy / temporary files
+*-cache.lib
+*-rescue.lib
+*.tmp
+*.bak
+
+# Output & manufacturing directories
+/plots/
+/gerber/
+/gerbers/
+/output/
+/fab/
+
+# User requested exclusions
+*.zip
+*.pdf
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
