@@ -526,6 +526,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "common:+33V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR?"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+33V"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+33V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+33V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "common:+35V"
 			(power global)
 			(pin_numbers
@@ -644,6 +783,145 @@
 				)
 			)
 			(symbol "+35V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "common:-33V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR?"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-33V"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-33V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-33V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1273,6 +1551,205 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "jlc_c0603:10p,5%,50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10p,5%,50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Library:C_0603_1608Metric_1.28x0.64mm_Courtyard"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Samsung"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CL10C100JB8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C1634"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10p,5%,50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10p,5%,50V_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "jlc_c0603:2.2u,10%,16V"
 			(pin_numbers
 				(hide yes)
@@ -1472,7 +1949,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "jlc_c0805:2.2u,10%,50V"
+		(symbol "jlc_c0805:10u,10%,50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1485,7 +1962,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0 2.54 0)
+				(at 2.54 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1495,13 +1972,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2.2u,10%,50V"
-				(at 0 0 0)
+			(property "Value" "10u,10%,50V"
+				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.016 1.016)
 					)
 					(justify left)
 				)
@@ -1540,7 +2017,7 @@
 				)
 			)
 			(property "Package" "0805"
-				(at 0 -2.54 0)
+				(at 2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1550,7 +2027,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer" "Samsung"
+			(property "Manufacturer" "muRata"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1561,7 +2038,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "CL21A225KBQNNNE"
+			(property "Manufacturer Part" "GRM21BR61H106KE43L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1572,7 +2049,7 @@
 					)
 				)
 			)
-			(property "Supplier Part" "C377773"
+			(property "Supplier Part" "C440198"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1605,7 +2082,7 @@
 					)
 				)
 			)
-			(symbol "2.2u,10%,50V_0_1"
+			(symbol "10u,10%,50V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1631,7 +2108,7 @@
 					)
 				)
 			)
-			(symbol "2.2u,10%,50V_1_1"
+			(symbol "10u,10%,50V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1661,6 +2138,385 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlc_lib:BAV99,215"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D4"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99,215"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Switching Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BAV99,215"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C2500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAV99,215_0_1"
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99,215_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1975,161 +2831,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "jlc_lib:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2739,189 +3440,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "jlc_r0402:100R,1%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R,1%"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" "Abacus:R_0402_1005Metric_for_0.25mm_grid"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "0402WGF1000TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C25076"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "100R,1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100R,1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4396,6 +4914,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "jlc_r1206:100R,1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100R,1%"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "1206W4F1000T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C17901"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100R,1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100R,1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3VA"
 			(power global)
 			(pin_numbers
@@ -4815,6 +5516,12 @@
 		(uuid "0e7b3b37-ba03-440e-ad60-f40fb4cf439c")
 	)
 	(junction
+		(at 279.4 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eda326b-5d53-403a-8cbf-62ad376141ca")
+	)
+	(junction
 		(at 254 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5138,6 +5845,14 @@
 		(color 0 0 0 0)
 		(uuid "f7cb762b-c9ac-4475-a10a-228654aa71b6")
 	)
+	(no_connect
+		(at 248.92 0)
+		(uuid "437ac709-e7e7-47e0-a44c-f9cf852602ce")
+	)
+	(no_connect
+		(at 248.92 266.7)
+		(uuid "47c7e2ac-a78f-44e9-9d0f-11639f1602ea")
+	)
 	(wire
 		(pts
 			(xy 255.27 60.96) (xy 254 60.96)
@@ -5177,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "032bd97c-33aa-40d4-8218-488a40cb395c")
+	)
+	(wire
+		(pts
+			(xy 304.8 22.86) (xy 304.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037b470f-de0f-4ba0-ace8-70720467010f")
 	)
 	(wire
 		(pts
@@ -5377,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "2018ff04-b666-43af-b675-9fecec456539")
+	)
+	(wire
+		(pts
+			(xy 254 -12.7) (xy 254 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2054f550-899f-4dcf-87ed-10437865f7fc")
 	)
 	(wire
 		(pts
@@ -5630,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 149.86) (xy 304.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b38d2a5-b56e-4981-984e-e88936603e35")
+	)
+	(wire
+		(pts
 			(xy 355.6 46.99) (xy 355.6 25.4)
 		)
 		(stroke
@@ -5690,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 248.92) (xy 254 254)
+			(xy 254 248.92) (xy 254 259.08)
 		)
 		(stroke
 			(width 0)
@@ -6040,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 22.86) (xy 254 25.4)
+			(xy 254 7.62) (xy 254 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6100,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 248.92) (xy 304.8 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e926b8e-7a4f-4cd9-a380-ae493be46b1e")
+	)
+	(wire
+		(pts
 			(xy 355.6 181.61) (xy 355.6 203.2)
 		)
 		(stroke
@@ -6117,6 +6872,16 @@
 			(type default)
 		)
 		(uuid "73fac81c-4fca-43d2-beb3-e43ad0ffe45d")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 256.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b6889f-9c67-41e0-b535-416638406519")
 	)
 	(wire
 		(pts
@@ -6270,6 +7035,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 248.92) (xy 256.54 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85865d0e-4b21-4fb8-b891-899d10a9c495")
+	)
+	(wire
+		(pts
 			(xy 60.96 264.16) (xy 60.96 257.81)
 		)
 		(stroke
@@ -6387,16 +7162,6 @@
 			(type default)
 		)
 		(uuid "8dc88b57-1d5e-4c61-84bd-63426e131695")
-	)
-	(wire
-		(pts
-			(xy 254 149.86) (xy 254 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ae8004-08ad-46de-afee-29c2c6850343")
 	)
 	(wire
 		(pts
@@ -6567,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "a5030fa3-5fee-425e-8af1-132816435864")
+	)
+	(wire
+		(pts
+			(xy 254 274.32) (xy 254 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f00d46-d67f-460d-b72d-fe3f5ae0b00f")
 	)
 	(wire
 		(pts
@@ -7160,7 +7935,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 248.92) (xy 304.8 248.92)
+			(xy 256.54 248.92) (xy 279.4 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7237,6 +8012,16 @@
 			(type default)
 		)
 		(uuid "e979c77b-1fae-486f-8cbd-84b8e0ce6c48")
+	)
+	(wire
+		(pts
+			(xy 330.2 22.86) (xy 330.2 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4a1f15-8a06-4ed3-b442-04dd2c207a13")
 	)
 	(wire
 		(pts
@@ -7408,16 +8193,6 @@
 		)
 		(uuid "feadc9c3-7048-4249-81e1-c25beab89b3e")
 	)
-	(wire
-		(pts
-			(xy 254 121.92) (xy 254 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2f3c01-b156-4f00-aef9-b82790f3d632")
-	)
 	(label "VAMP2-"
 		(at 177.8 248.92 0)
 		(effects
@@ -7573,7 +8348,7 @@
 		(uuid "e70d6d74-7178-41fe-a829-01fc8756a5de")
 	)
 	(symbol
-		(lib_id "jlc_lib:C")
+		(lib_id "jlc_c0603:10p,5%,50V")
 		(at 185.42 228.6 90)
 		(unit 1)
 		(body_style 1)
@@ -7581,8 +8356,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "03002aed-0ae5-45de-a80f-4e7649067682")
 		(property "Reference" "C661"
 			(at 185.42 220.98 90)
@@ -7592,9 +8366,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p,5%,50V"
 			(at 185.42 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,9 +8377,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_0603_1608Metric_1.28x0.64mm_Courtyard"
 			(at 189.23 227.6348 0)
 			(hide yes)
 			(show_name no)
@@ -7637,6 +8413,50 @@
 				)
 			)
 		)
+		(property "Package" "0603"
+			(at 187.96 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10C100JB8NNNC"
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1634"
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7950cfd7-1e57-4976-832f-1fe45a7af3cd")
 		)
@@ -7644,7 +8464,7 @@
 			(uuid "ed1b78cb-9d7e-4f9d-a6de-3647f442087c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C661")
 					(unit 1)
@@ -7770,7 +8590,7 @@
 			(uuid "06ececf5-e774-4c6f-9a94-a6da8a3c8c67")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R632")
 					(unit 1)
@@ -7848,7 +8668,7 @@
 			(uuid "84bdd74c-0175-4730-aa8c-5cb04c4866b4")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0124")
 					(unit 1)
@@ -7926,7 +8746,7 @@
 			(uuid "7834f2aa-d517-434b-94bc-cb20bd86d066")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0105")
 					(unit 1)
@@ -7935,7 +8755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_lib:C")
+		(lib_id "jlc_c0603:10p,5%,50V")
 		(at 185.42 101.6 90)
 		(unit 1)
 		(body_style 1)
@@ -7943,8 +8763,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "0cd7df7a-facc-4dd3-8efa-e7891ecbb224")
 		(property "Reference" "C651"
 			(at 185.42 93.98 90)
@@ -7954,9 +8773,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p,5%,50V"
 			(at 185.42 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,9 +8784,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_0603_1608Metric_1.28x0.64mm_Courtyard"
 			(at 189.23 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -7999,6 +8820,50 @@
 				)
 			)
 		)
+		(property "Package" "0603"
+			(at 187.96 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10C100JB8NNNC"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1634"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e10d9d77-c251-44dd-8d59-1d5da3cfdaee")
 		)
@@ -8006,7 +8871,7 @@
 			(uuid "6c13abf1-3e85-4dbd-bf92-f2631ac31c4d")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C651")
 					(unit 1)
@@ -8132,7 +8997,7 @@
 			(uuid "b0ba7ade-0518-476c-bf6c-181932314a62")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C603")
 					(unit 1)
@@ -8255,7 +9120,7 @@
 			(uuid "f29ffaab-2845-4378-b51f-fcf09281e024")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R663")
 					(unit 1)
@@ -8333,7 +9198,7 @@
 			(uuid "10cf5267-5b15-4504-9726-0b2882c5b8c0")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0122")
 					(unit 1)
@@ -8412,7 +9277,7 @@
 			(uuid "44f25b35-fe02-4ff7-b94e-f084d27282ae")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0102")
 					(unit 1)
@@ -8421,7 +9286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_r0402:100R,1%")
+		(lib_id "jlc_r1206:100R,1%")
 		(at 256.54 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -8429,32 +9294,30 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1d38ea96-2cac-45b3-83a2-5bf2d5743e20")
 		(property "Reference" "R613"
-			(at 259.08 113.0299 0)
+			(at 259.08 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100R,1%"
-			(at 259.08 115.5699 0)
+			(at 259.08 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric_for_0.25mm_grid"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254.762 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -8487,7 +9350,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "1206"
 			(at 259.08 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +9358,6 @@
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
@@ -8509,7 +9371,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1000TCE"
+		(property "Manufacturer Part" "1206W4F1000T5E"
 			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8520,7 +9382,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25076"
+		(property "Supplier Part" "C17901"
 			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +9400,7 @@
 			(uuid "c49dd965-8522-479b-8465-0d6e281713e9")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R613")
 					(unit 1)
@@ -8661,7 +9523,7 @@
 			(uuid "dd32f471-55dc-42f7-bb02-bce8daebb36f")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R9660")
 					(unit 1)
@@ -8787,7 +9649,7 @@
 			(uuid "0ed4f9c7-7374-4968-95ca-314043d26613")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R622")
 					(unit 1)
@@ -8865,7 +9727,7 @@
 			(uuid "ffbbacbc-256c-4159-bfe2-2a8bb7791ae0")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR054")
 					(unit 1)
@@ -8991,7 +9853,7 @@
 			(uuid "0093540a-e198-41d3-a69a-1cdd6b220bfa")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C612")
 					(unit 1)
@@ -9069,7 +9931,7 @@
 			(uuid "677a2298-9dc8-4a48-8a24-c79d6a3510d1")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "TP36")
 					(unit 1)
@@ -9195,9 +10057,135 @@
 			(uuid "2026b39d-2076-40f7-8883-427243ec7432")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R654")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_c0805:10u,10%,50V")
+		(at 304.8 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3969a2e5-7a3f-4817-9cdf-54d14c26df1e")
+		(property "Reference" "C631"
+			(at 308.61 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u,10%,50V"
+			(at 308.61 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 305.7652 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 304.8 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 308.61 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 304.8 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
+			(at 304.8 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C440198"
+			(at 304.8 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9afa603b-2079-4ce9-b3bf-a18a563bfd27")
+		)
+		(pin "1"
+			(uuid "07f66c2f-0e37-4187-b775-80dab3d42cc9")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "C631")
 					(unit 1)
 				)
 			)
@@ -9273,7 +10261,7 @@
 			(uuid "00cd52bb-2fe7-4b80-8165-357a830f7dc5")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR055")
 					(unit 1)
@@ -9395,7 +10383,7 @@
 			(uuid "6fc35b3a-f0cc-4d0e-a9a1-f29b93f864bc")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C650")
 					(unit 1)
@@ -9521,7 +10509,7 @@
 			(uuid "8c9e80c8-00e5-48f5-ab0a-8d2c1d78d395")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R631")
 					(unit 1)
@@ -9599,7 +10587,7 @@
 			(uuid "65a51b9f-0b0c-4369-a667-898b77667df7")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "TP9")
 					(unit 1)
@@ -9677,7 +10665,7 @@
 			(uuid "5672fdcd-5db7-4fcf-9704-d7efa38a5863")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR099")
 					(unit 1)
@@ -9803,7 +10791,7 @@
 			(uuid "b54637e9-fb04-4922-a921-37ed274ba1e9")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R621")
 					(unit 1)
@@ -9881,7 +10869,7 @@
 			(uuid "64e993b0-0e3f-47a2-9b92-593f8b14b55d")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR036")
 					(unit 1)
@@ -10004,7 +10992,7 @@
 			(uuid "cb525890-1c72-4f75-858c-4d2aace140e8")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R655")
 					(unit 1)
@@ -10013,7 +11001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_r0402:100R,1%")
+		(lib_id "jlc_r1206:100R,1%")
 		(at 256.54 242.57 0)
 		(unit 1)
 		(body_style 1)
@@ -10021,32 +11009,30 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b3e8875-75ec-4db9-b7e6-de9e244ffca0")
 		(property "Reference" "R633"
-			(at 259.08 240.0299 0)
+			(at 259.08 240.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100R,1%"
-			(at 259.08 242.5699 0)
+			(at 259.08 242.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric_for_0.25mm_grid"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254.762 242.57 90)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "1206"
 			(at 259.08 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +11073,6 @@
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
@@ -10101,7 +11086,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1000TCE"
+		(property "Manufacturer Part" "1206W4F1000T5E"
 			(at 256.54 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -10112,7 +11097,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25076"
+		(property "Supplier Part" "C17901"
 			(at 256.54 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -10130,7 +11115,7 @@
 			(uuid "524f18c0-9543-4a3c-861f-82511e1fe253")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R633")
 					(unit 1)
@@ -10256,9 +11241,87 @@
 			(uuid "fe3b0cbb-ccf5-42b4-98a2-71490c2edc4d")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C664")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:+33V")
+		(at 304.8 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3b13ee-7024-48a2-b99b-5de13c55efb9")
+		(property "Reference" "#PWR021"
+			(at 304.8 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+33V"
+			(at 304.8 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "507bdf6b-a2d7-4dae-8679-a9bd33c55131")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10404,7 +11467,7 @@
 			(uuid "06d1e16a-2e4f-4118-b0b4-3866105c9439")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U621")
 					(unit 1)
@@ -10413,7 +11476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_r0402:100R,1%")
+		(lib_id "jlc_r1206:100R,1%")
 		(at 256.54 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -10421,32 +11484,30 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "51056db0-edc8-4363-9413-7502b325f420")
 		(property "Reference" "R623"
-			(at 259.08 189.2299 0)
+			(at 259.08 189.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100R,1%"
-			(at 259.08 191.7699 0)
+			(at 259.08 191.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric_for_0.25mm_grid"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254.762 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -10479,7 +11540,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "1206"
 			(at 259.08 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10487,7 +11548,6 @@
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
@@ -10501,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1000TCE"
+		(property "Manufacturer Part" "1206W4F1000T5E"
 			(at 256.54 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10512,7 +11572,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25076"
+		(property "Supplier Part" "C17901"
 			(at 256.54 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10530,7 +11590,7 @@
 			(uuid "369bff94-19bf-4094-b5e7-5dc1e63e697c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R623")
 					(unit 1)
@@ -10539,8 +11599,8 @@
 		)
 	)
 	(symbol
-		(lib_id "common:+35V")
-		(at 254 149.86 0)
+		(lib_id "jlc_lib:BAV99,215")
+		(at 254 0 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10549,9 +11609,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58f7eb64-04ed-4f76-89d7-fbf7696a042e")
-		(property "Reference" "#PWR096"
-			(at 254 153.67 0)
+		(uuid "514a9a7b-d51b-425a-aef5-8a3bd11113e4")
+		(property "Reference" "D9"
+			(at 256.54 -2.5401 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99,215"
+			(at 256.54 -0.0001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 257.175 1.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10559,31 +11641,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "+35V"
-			(at 254 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 149.86 0)
+			(at 254 -3.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,8 +11655,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 254 149.86 0)
+		(property "Description" "Dual Switching Diode"
+			(at 254 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10602,15 +11664,65 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 254 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 254 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BAV99,215"
+			(at 254 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C2500"
+			(at 256.54 2.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "38e8484f-dbf9-4c2a-9c94-053fb003db59")
+			(uuid "c3bf56d2-0e67-4157-b266-6a4cd44425bc")
+		)
+		(pin "2"
+			(uuid "39dd7ffc-02e1-4caf-b1ce-6c1a2f029869")
+		)
+		(pin "3"
+			(uuid "eb7bc2b2-5eda-4cc6-bc7f-b6710bfc6735")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
-					(reference "#PWR096")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -10687,7 +11799,7 @@
 			(uuid "eb80185b-f485-4ccd-97a5-db452aafab74")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0104")
 					(unit 1)
@@ -10829,7 +11941,7 @@
 			(uuid "4d0093f8-4bd6-4f0f-a2ed-f15c70abdd24")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U1")
 					(unit 2)
@@ -10955,7 +12067,7 @@
 			(uuid "aab0609b-4673-4f6c-b0f6-b5244470c204")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C667")
 					(unit 1)
@@ -11077,7 +12189,7 @@
 			(uuid "c953a720-7e39-4474-9bda-3e6b4157c380")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C660")
 					(unit 1)
@@ -11200,7 +12312,7 @@
 			(uuid "04f82370-fd96-44c6-a5cb-a15fdbf1acba")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R666")
 					(unit 1)
@@ -11335,7 +12447,7 @@
 			(uuid "cc744eb7-a077-4c12-8243-616e6557d573")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U2")
 					(unit 1)
@@ -11461,7 +12573,7 @@
 			(uuid "13219254-1864-4ea2-a96a-42d5f302251d")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R602")
 					(unit 1)
@@ -11470,7 +12582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_c0805:2.2u,10%,50V")
+		(lib_id "jlc_c0805:10u,10%,50V")
 		(at 304.8 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -11492,13 +12604,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u,10%,50V"
+		(property "Value" "10u,10%,50V"
 			(at 308.61 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -11547,7 +12659,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "muRata"
 			(at 304.8 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11558,7 +12670,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL21A225KBQNNNE"
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
 			(at 304.8 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11569,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C377773"
+		(property "Supplier Part" "C440198"
 			(at 304.8 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11587,7 +12699,7 @@
 			(uuid "5e663f9c-2606-481b-86c9-9480c301e86b")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C611")
 					(unit 1)
@@ -11713,7 +12825,7 @@
 			(uuid "c555c58a-f0f7-419c-a1d3-81b0573c6cf4")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C622")
 					(unit 1)
@@ -11791,7 +12903,7 @@
 			(uuid "86f7fceb-b732-45eb-9463-ecf7c62cfb78")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR047")
 					(unit 1)
@@ -11869,7 +12981,7 @@
 			(uuid "7de74abf-1d6c-4a4d-9d1d-4136499f02d5")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR046")
 					(unit 1)
@@ -11947,7 +13059,7 @@
 			(uuid "e0d2aa65-cbcb-40ff-8c99-8c038452db83")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "TP12")
 					(unit 1)
@@ -11956,7 +13068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_c0805:2.2u,10%,50V")
+		(lib_id "jlc_c0805:10u,10%,50V")
 		(at 304.8 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -11978,13 +13090,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u,10%,50V"
+		(property "Value" "10u,10%,50V"
 			(at 308.61 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -12033,7 +13145,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "muRata"
 			(at 304.8 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12044,7 +13156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL21A225KBQNNNE"
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
 			(at 304.8 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12055,7 +13167,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C377773"
+		(property "Supplier Part" "C440198"
 			(at 304.8 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12073,7 +13185,7 @@
 			(uuid "26d2d0b2-6ee5-4f4b-bcbf-fda9b4769a17")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C601")
 					(unit 1)
@@ -12199,7 +13311,7 @@
 			(uuid "c72785da-22ef-49b3-88a8-3b786a603bd8")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R651")
 					(unit 1)
@@ -12209,7 +13321,7 @@
 	)
 	(symbol
 		(lib_id "common:-35V")
-		(at 254 254 180)
+		(at 254 276.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12220,7 +13332,7 @@
 		(fields_autoplaced yes)
 		(uuid "84bc5b70-7bf4-436c-bb28-f623fb68096e")
 		(property "Reference" "#PWR097"
-			(at 254 250.19 0)
+			(at 254 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12231,7 +13343,7 @@
 			)
 		)
 		(property "Value" "-35V"
-			(at 254 259.08 0)
+			(at 254 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12241,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 254 0)
+			(at 254 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12252,7 +13364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 254 0)
+			(at 254 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +13375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 254 0)
+			(at 254 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +13389,7 @@
 			(uuid "781641c2-2581-49e6-8f8c-b9e3ca6da484")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR097")
 					(unit 1)
@@ -12399,7 +13511,7 @@
 			(uuid "50a98d59-6b6f-4e56-9e10-accd5254e2bb")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C652")
 					(unit 1)
@@ -12477,7 +13589,7 @@
 			(uuid "a82c9927-1eff-43a3-8d4e-8664cb7a4b65")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0123")
 					(unit 1)
@@ -12555,7 +13667,7 @@
 			(uuid "a96e668e-7d1d-451f-a7c9-22e24753088b")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR063")
 					(unit 1)
@@ -12564,7 +13676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_lib:C")
+		(lib_id "jlc_c0603:10p,5%,50V")
 		(at 101.6 101.6 90)
 		(unit 1)
 		(body_style 1)
@@ -12572,8 +13684,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "8cc4aa46-8bf2-4d5c-96d5-62c04387ad76")
 		(property "Reference" "C653"
 			(at 101.6 93.98 90)
@@ -12583,9 +13694,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p,5%,50V"
 			(at 101.6 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12593,9 +13705,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_0603_1608Metric_1.28x0.64mm_Courtyard"
 			(at 105.41 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -12628,6 +13741,50 @@
 				)
 			)
 		)
+		(property "Package" "0603"
+			(at 104.14 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10C100JB8NNNC"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1634"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a2b3c08-1d61-43c9-ba8c-783d709ac277")
 		)
@@ -12635,7 +13792,7 @@
 			(uuid "ca2d345b-4f9d-4675-9d30-8cd047b7f1d0")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C653")
 					(unit 1)
@@ -12761,9 +13918,87 @@
 			(uuid "25a2881c-b473-450a-9426-4bd4fa7206dc")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C623")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 279.4 248.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "99b4daa7-9e8a-43c8-b5df-04e694ec0152")
+		(property "Reference" "TP30"
+			(at 280.6701 254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 278.1301 254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 274.32 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 279.4 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd105ad-4594-49f4-9464-acbf0ada0a12")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -12887,7 +14122,7 @@
 			(uuid "057478f8-dae4-4841-abd1-1d337f686765")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C654")
 					(unit 1)
@@ -13010,7 +14245,7 @@
 			(uuid "e13d97b1-a959-4bb9-a4ac-1b16484e96bb")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R653")
 					(unit 1)
@@ -13133,7 +14368,7 @@
 			(uuid "7e623417-3c61-41ad-b34f-6a775c2692f3")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R9650")
 					(unit 1)
@@ -13142,7 +14377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_c0805:2.2u,10%,50V")
+		(lib_id "jlc_c0805:10u,10%,50V")
 		(at 304.8 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -13164,13 +14399,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u,10%,50V"
+		(property "Value" "10u,10%,50V"
 			(at 308.61 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -13219,7 +14454,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "muRata"
 			(at 304.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13230,7 +14465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL21A225KBQNNNE"
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
 			(at 304.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13241,7 +14476,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C377773"
+		(property "Supplier Part" "C440198"
 			(at 304.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13259,9 +14494,217 @@
 			(uuid "6ff4ee1e-5136-4455-b18a-4487624d4550")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C621")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_lib:BAV99,215")
+		(at 254 266.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17761e3-07d8-490b-af03-a42f015f8a61")
+		(property "Reference" "D10"
+			(at 256.54 264.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99,215"
+			(at 256.54 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 257.175 268.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 263.652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Switching Diode"
+			(at 254 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 254 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 254 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BAV99,215"
+			(at 254 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C2500"
+			(at 256.54 269.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "cf7bad0f-7e88-484a-969c-853c37bfac5a")
+		)
+		(pin "2"
+			(uuid "f9b6bbb1-bef4-410e-bea0-1d24456f3079")
+		)
+		(pin "3"
+			(uuid "30f1c377-2a14-4d41-ad20-eedcf457282c")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:-33V")
+		(at 256.54 254 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6162193-db1a-43b1-bdc8-56207a33c395")
+		(property "Reference" "#PWR026"
+			(at 256.54 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-33V"
+			(at 256.54 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f5ed89e-8e77-47c7-84f9-b0a7482f4ab0")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13382,7 +14825,7 @@
 			(uuid "0a9a8254-8de8-429f-8eee-51b1d9b3758a")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R656")
 					(unit 1)
@@ -13508,87 +14951,9 @@
 			(uuid "14f3ece3-b237-410a-ae14-e715ce1fc796")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C668")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "common:-35V")
-		(at 254 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8b78d08-f2c5-4a35-ac61-e56d8b2fd6bf")
-		(property "Reference" "#PWR03"
-			(at 254 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-35V"
-			(at 254 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cb5dfe5-9bab-4dbd-b8db-1fd0403b4d6d")
-		)
-		(instances
-			(project "ttf-ng-a-v1"
-				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13712,7 +15077,7 @@
 			(uuid "562e0e1e-23ab-4497-9ca6-c28f3d063703")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C986")
 					(unit 1)
@@ -13854,7 +15219,7 @@
 			(uuid "b46d1fae-1eba-4f44-8a95-6732f25864a4")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U650")
 					(unit 1)
@@ -13980,7 +15345,7 @@
 			(uuid "7abf3d9d-9af3-4148-88bb-92def911dd68")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C987")
 					(unit 1)
@@ -14106,7 +15471,7 @@
 			(uuid "127254de-af95-4df7-b442-cae575cb385c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R664")
 					(unit 1)
@@ -14184,7 +15549,7 @@
 			(uuid "784ccf83-29ee-43b9-a2b9-e77c3f0467c0")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "TP37")
 					(unit 1)
@@ -14310,7 +15675,7 @@
 			(uuid "caaf244e-2f74-478a-b16f-91f377c1429c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R601")
 					(unit 1)
@@ -14433,7 +15798,7 @@
 			(uuid "fc66c1c2-10c1-4d3a-b34f-6e9b43737243")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R652")
 					(unit 1)
@@ -14511,7 +15876,7 @@
 			(uuid "fb1c9d76-2936-4303-8f16-023e8bb09cac")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0108")
 					(unit 1)
@@ -14659,87 +16024,9 @@
 			(uuid "ef66e45c-95b3-4dcc-9022-214730dce8bf")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "common:+35V")
-		(at 254 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bae2b6b9-1536-4e95-a602-5f9f71b38f92")
-		(property "Reference" "#PWR084"
-			(at 254 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+35V"
-			(at 254 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e7a3320-0016-4b77-a236-f6d0a01867ce")
-		)
-		(instances
-			(project "ttf-ng-a-v1"
-				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -14879,7 +16166,7 @@
 			(uuid "cb27c164-fd71-41e9-a44b-95c391068770")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U660")
 					(unit 1)
@@ -15005,7 +16292,7 @@
 			(uuid "d9c0342d-2fff-44fe-9fe5-0bbf3a76981c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C602")
 					(unit 1)
@@ -15149,7 +16436,7 @@
 			(uuid "085ecd16-e925-4318-aaac-fa8a22cc6988")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U1")
 					(unit 3)
@@ -15158,133 +16445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_c0805:2.2u,10%,50V")
-		(at 304.8 228.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c27c643a-f8d4-4e9b-a67c-91ff47252359")
-		(property "Reference" "C631"
-			(at 308.61 226.6949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u,10%,50V"
-			(at 308.61 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 305.7652 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 304.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 308.61 230.5049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 304.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CL21A225KBQNNNE"
-			(at 304.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C377773"
-			(at 304.8 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fd28285-ee7d-42be-a676-e925aff16a94")
-		)
-		(pin "2"
-			(uuid "a01753e4-6fc5-457a-8c49-f4e5477935f4")
-		)
-		(instances
-			(project "ttf-ng-a-v1"
-				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
-					(reference "C631")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jlc_lib:C")
+		(lib_id "jlc_c0603:10p,5%,50V")
 		(at 101.6 228.6 90)
 		(unit 1)
 		(body_style 1)
@@ -15292,8 +16453,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "c3acc6c9-470c-46b0-a04c-1342641eef3a")
 		(property "Reference" "C663"
 			(at 101.6 220.98 90)
@@ -15303,9 +16463,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10p,5%,50V"
 			(at 101.6 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,9 +16474,10 @@
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_0603_1608Metric_1.28x0.64mm_Courtyard"
 			(at 105.41 227.6348 0)
 			(hide yes)
 			(show_name no)
@@ -15348,6 +16510,50 @@
 				)
 			)
 		)
+		(property "Package" "0603"
+			(at 104.14 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 101.6 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10C100JB8NNNC"
+			(at 101.6 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1634"
+			(at 101.6 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "646baf3b-fdaa-4079-a7dc-a58208f17b52")
 		)
@@ -15355,7 +16561,7 @@
 			(uuid "6957e748-f68a-44f6-9523-45f78bf4861c")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C663")
 					(unit 1)
@@ -15364,7 +16570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_r0402:100R,1%")
+		(lib_id "jlc_r1206:100R,1%")
 		(at 256.54 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -15372,32 +16578,30 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3fc6253-b88d-410b-8e99-56bd1b660dac")
 		(property "Reference" "R603"
-			(at 259.08 62.2299 0)
+			(at 259.08 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100R,1%"
-			(at 259.08 64.7699 0)
+			(at 259.08 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric_for_0.25mm_grid"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254.762 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -15430,7 +16634,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "1206"
 			(at 259.08 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15438,7 +16642,6 @@
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
@@ -15452,7 +16655,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1000TCE"
+		(property "Manufacturer Part" "1206W4F1000T5E"
 			(at 256.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15463,7 +16666,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25076"
+		(property "Supplier Part" "C17901"
 			(at 256.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15481,7 +16684,7 @@
 			(uuid "969a5d56-1f3c-4bde-8e21-9d4ff0ad3892")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R603")
 					(unit 1)
@@ -15607,7 +16810,7 @@
 			(uuid "46f3e37b-f49b-4e16-86e3-b65776caf296")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C985")
 					(unit 1)
@@ -15733,7 +16936,7 @@
 			(uuid "bcad28ed-6772-4b1b-957e-1d55157a78c7")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C632")
 					(unit 1)
@@ -15811,9 +17014,87 @@
 			(uuid "8e337d30-13c7-4a65-9f9f-6e9b87f4fb60")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:+33V")
+		(at 304.8 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d857a3e7-a46b-48fa-a530-2851ea94d0f6")
+		(property "Reference" "#PWR022"
+			(at 304.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+33V"
+			(at 304.8 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1593a868-bdef-464f-888e-3e7808b1a322")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15934,7 +17215,7 @@
 			(uuid "01e6e930-75d7-49ba-8e70-3a014c37f917")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R662")
 					(unit 1)
@@ -16057,7 +17338,7 @@
 			(uuid "1643ff36-5c52-4d50-b069-f7e61c11ca07")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R665")
 					(unit 1)
@@ -16199,7 +17480,7 @@
 			(uuid "4d0093f8-4bd6-4f0f-a2ed-f15c70abdd25")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U1")
 					(unit 1)
@@ -16347,7 +17628,7 @@
 			(uuid "d4471ff7-e8e3-4c59-b87e-2ffcfd0e1725")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U611")
 					(unit 1)
@@ -16473,7 +17754,7 @@
 			(uuid "1fa44854-41cf-4171-bbed-88e2f46ddac9")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R611")
 					(unit 1)
@@ -16599,9 +17880,87 @@
 			(uuid "227af7c2-5c93-44eb-a31e-c673ed6d3c7a")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:+35V")
+		(at 254 -12.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d3334d-ebcc-42f0-bf02-ae1e09c9bc46")
+		(property "Reference" "#PWR084"
+			(at 254 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+35V"
+			(at 254 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6f0a6ec-41c3-468f-becc-a4c67ded85a3")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -16725,7 +18084,7 @@
 			(uuid "a43ea8a9-50f0-43fd-a0a1-6f6d262a64aa")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "R661")
 					(unit 1)
@@ -16873,9 +18232,87 @@
 			(uuid "941d0203-bf93-4a17-b157-1f7af145f353")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "U631")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 330.2 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f7fe07c0-9ccd-4c2c-8297-a9149707c72e")
+		(property "Reference" "TP8"
+			(at 328.9299 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 331.4699 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 335.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 330.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e65f4f-377f-46fe-8b0f-65e179a892c4")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -16951,7 +18388,7 @@
 			(uuid "a16f2801-4efc-4875-ae21-82609838a905")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "#PWR0103")
 					(unit 1)
@@ -17073,9 +18510,87 @@
 			(uuid "e6b98147-76e1-49db-938e-c1603a94fdb4")
 		)
 		(instances
-			(project "ttf-ng-a-v1"
+			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
 					(reference "C662")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:-33V")
+		(at 256.54 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc068c45-21db-404a-a42b-f4fa8cfa4130")
+		(property "Reference" "#PWR049"
+			(at 256.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-33V"
+			(at 256.54 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa3c9efd-ea14-420f-9c40-06991becf89e")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/3d8d2125-6d0f-41d7-b2a3-2e0a5af85d2a"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -179,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -201,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -215,6 +218,7 @@
         0.15,
         0.25,
         0.4,
+        0.5,
         0.6,
         0.8,
         1.0
@@ -503,6 +507,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -524,7 +529,8 @@
       "JLC_R0402",
       "JLC_C0402",
       "JLC_C0603",
-      "jlc_lib"
+      "jlc_lib",
+      "jlc_c0603"
     ]
   },
   "meta": {
@@ -574,9 +580,13 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
-      "/ADC_IN0": [
+      "/AMP_OUTA1": [
+        "PAD",
+        "sensitive"
+      ],
+      "/AMP_OUTB1": [
         "sensitive"
       ],
       "/DDS_CLK": [
@@ -584,9 +594,6 @@
       ],
       "/FS_ADJUST": [
         "sensitive"
-      ],
-      "/mux1/SIG_GRP2": [
-        "PAD"
       ],
       "/mux1/Y01": [
         "PAD"
@@ -633,15 +640,6 @@
       "/mux1/Y89": [
         "PAD"
       ],
-      "HV_SIG": [
-        "PAD"
-      ],
-      "Net-(J1-In)": [
-        "sensitive"
-      ],
-      "Net-(J2-Pin_1)": [
-        "sensitive"
-      ],
       "Net-(Y1-OUT)": [
         "sensitive"
       ]
@@ -653,7 +651,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "mfg-260721-ttf-ng-a-v1.1/",
+      "plot": "mfg-261026-ttf-compact-v1/",
       "pos_files": "mfg-260326-ttf-ng-a-v1/",
       "specctra_dsn": "",
       "step": "",
@@ -668,7 +666,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "mfg-260721-ttf-ng-a-v1.1\\ttf-ng-a-v1-bom.csv",
+    "bom_export_filename": "mfg-261026-ttf-compact-v1\\ttf-compact-v1-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -818,7 +816,11 @@
   "sheets": [
     [
       "1329b9bb-9a3b-4c50-98a3-8c06ec9d9266",
-      "ttf-ng-a-v1"
+      "ttf-compact"
+    ],
+    [
+      "63039d11-88de-4557-ac68-aa05aeb575f0",
+      "mux1"
     ],
     [
       "e16fe584-8a17-4095-b0df-e7a7ae375b97",
