@@ -530,7 +530,8 @@
       "JLC_C0402",
       "JLC_C0603",
       "jlc_lib",
-      "jlc_c0603"
+      "jlc_c0603",
+      "jlc_r0603"
     ]
   },
   "meta": {
@@ -810,7 +811,7 @@
         "uuid": "1329b9bb-9a3b-4c50-98a3-8c06ec9d9266"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR125-127,#PWR130-137,C12,C700-703,C705,D11,D651,R604,R701-702,U3",
     "variants": []
   },
   "sheets": [
