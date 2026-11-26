@@ -652,7 +652,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "mfg-261026-ttf-compact-v1/",
+      "plot": "mfg-261126-ttf-compact-v1.1/",
       "pos_files": "mfg-260326-ttf-ng-a-v1/",
       "specctra_dsn": "",
       "step": "",
@@ -667,7 +667,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "mfg-261026-ttf-compact-v1\\ttf-compact-v1-bom.csv",
+    "bom_export_filename": "mfg-261126-ttf-compact-v1.1\\ttf-compact-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -811,7 +811,7 @@
         "uuid": "1329b9bb-9a3b-4c50-98a3-8c06ec9d9266"
       }
     ],
-    "used_designators": "#PWR125-127,#PWR130-137,C12,C700-703,C705,D11,D651,R604,R701-702,U3",
+    "used_designators": "#PWR125-127,#PWR130-137,C12,C406,C700-703,C705,D11,D651,R604,R701-702,U3",
     "variants": []
   },
   "sheets": [

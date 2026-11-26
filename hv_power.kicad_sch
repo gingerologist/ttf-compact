@@ -3346,6 +3346,12 @@
 		(uuid "23caa901-7efd-4ea6-adcf-4e3926ce38ad")
 	)
 	(junction
+		(at 304.8 406.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a72a2c8-8870-4547-a60f-ac1a5d3004a4")
+	)
+	(junction
 		(at 238.76 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3374,6 +3380,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74f9b64b-df8d-4a2c-986f-9d54edb7990c")
+	)
+	(junction
+		(at 304.8 381)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752a413f-bdf9-4b33-a151-70599631caf2")
 	)
 	(junction
 		(at 165.1 406.4)
@@ -3607,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 406.4) (xy 314.96 406.4)
+			(xy 287.02 406.4) (xy 304.8 406.4)
 		)
 		(stroke
 			(width 0)
@@ -3917,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 381) (xy 314.96 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a53864a-9420-4349-be30-d67568d0dbf4")
+	)
+	(wire
+		(pts
 			(xy 127 406.4) (xy 152.4 406.4)
 		)
 		(stroke
@@ -4007,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 406.4) (xy 314.96 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0c14ce-d2a1-42df-868b-4ae4439a34dd")
+	)
+	(wire
+		(pts
 			(xy 254 406.4) (xy 165.1 406.4)
 		)
 		(stroke
@@ -4087,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 381) (xy 292.1 381)
+			(xy 287.02 381) (xy 304.8 381)
 		)
 		(stroke
 			(width 0)
@@ -4144,6 +4176,16 @@
 			(type default)
 		)
 		(uuid "c16abaed-4960-401f-b739-2f2c0ed6e0e2")
+	)
+	(wire
+		(pts
+			(xy 304.8 381) (xy 304.8 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c572c429-5b73-4577-ba34-1337cdb77442")
 	)
 	(wire
 		(pts
@@ -4284,6 +4326,16 @@
 			(type default)
 		)
 		(uuid "eabe4d99-c70f-44f4-8b76-d9c6bfc67892")
+	)
+	(wire
+		(pts
+			(xy 304.8 397.51) (xy 304.8 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbc5f18-633d-4edc-9a26-079f96364a9f")
 	)
 	(wire
 		(pts
@@ -18882,7 +18934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 292.1 381 90)
+		(at 314.96 381 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18893,7 +18945,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea9ca9ca-5c7e-4203-bfae-4145ca6a6e60")
 		(property "Reference" "#PWR094"
-			(at 298.45 381 0)
+			(at 321.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18904,7 +18956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 380.9999 90)
+			(at 318.77 380.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18915,7 +18967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 381 0)
+			(at 314.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18926,7 +18978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 381 0)
+			(at 314.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18937,7 +18989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 381 0)
+			(at 314.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19206,6 +19258,132 @@
 			(project "ttf-compact"
 				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/e16fe584-8a17-4095-b0df-e7a7ae375b97"
 					(reference "C304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_c0805:10u,10%,50V")
+		(at 304.8 393.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe68ceb9-08b1-403e-b72a-719eff359c96")
+		(property "Reference" "C406"
+			(at 308.61 391.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u,10%,50V"
+			(at 308.61 393.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 305.7652 397.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 304.8 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 308.61 396.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 304.8 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
+			(at 304.8 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C440198"
+			(at 304.8 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c5f5a75-bcc0-4294-a693-95a2d0c9f016")
+		)
+		(pin "2"
+			(uuid "e5f66ac3-e35b-4aba-aa7f-08e02100eb26")
+		)
+		(instances
+			(project "ttf-compact"
+				(path "/1329b9bb-9a3b-4c50-98a3-8c06ec9d9266/e16fe584-8a17-4095-b0df-e7a7ae375b97"
+					(reference "C406")
 					(unit 1)
 				)
 			)
